@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/kichu/esp_projects/tasks/ble_task/build/CMakeFiles/bootloader
+D:/kichu/esp_projects/tasks/ble_task/build/CMakeFiles/bootloader.rule
+D:/kichu/esp_projects/tasks/ble_task/build/CMakeFiles/bootloader-complete.rule
+D:/kichu/esp_projects/tasks/ble_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/kichu/esp_projects/tasks/ble_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/kichu/esp_projects/tasks/ble_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/kichu/esp_projects/tasks/ble_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/kichu/esp_projects/tasks/ble_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/kichu/esp_projects/tasks/ble_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/kichu/esp_projects/tasks/ble_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

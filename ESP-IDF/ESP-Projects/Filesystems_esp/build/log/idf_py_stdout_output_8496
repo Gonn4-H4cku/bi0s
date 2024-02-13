@@ -1,0 +1,16 @@
+[1/10] cmd.exe /C "cd /D D:\kichu\esp_projects\filesystems\build\esp-idf\main && D:\kichu\bi0s\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/kichu/bi0s/espidf/components/spiffs/spiffsgen.py 0x100000 D:/kichu/esp_projects/filesystems/partition D:/kichu/esp_projects/filesystems/build/storage.bin --page-size=256 --obj-name-len=32 --meta-len=4 --use-magic --use-magic-len"
+[2/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\kichu\esp_projects\filesystems\build\bootloader\esp-idf\esptool_py && D:\kichu\bi0s\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/kichu/bi0s/espidf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/kichu/esp_projects/filesystems/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[3/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp_files.c.obj
+[4/8] Linking C static library esp-idf\main\libmain.a
+[5/8] Generating ld/sections.ld
+[6/8] Linking CXX executable esp_files.elf
+[7/8] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/kichu/esp_projects/filesystems/build/esp_files.bin
+[8/8] cmd.exe /C "cd /D D:\kichu\esp_projects\filesystems\build\esp-idf\esptool_py && D:\kichu\bi0s\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/kichu/bi0s/espidf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/kichu/esp_projects/filesystems/build/partition_table/partition-table.bin D:/kichu/esp_projects/filesystems/build/esp_files.bin"
+esp_files.bin binary size 0x31980 bytes. Smallest app partition is 0x100000 bytes. 0xce680 bytes (81%) free.

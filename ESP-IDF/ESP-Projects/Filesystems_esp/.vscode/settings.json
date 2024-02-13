@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "esp_log.h": "c"
+    },
+    "idf.portWin": "COM7",
+    "idf.flashType": "UART",
+    "idf.adapterTargetName": "esp32"
+}
