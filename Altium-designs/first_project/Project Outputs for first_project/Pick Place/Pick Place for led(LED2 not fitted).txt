@@ -1,0 +1,16 @@
+Altium Designer Pick and Place Locations
+D:\kichu\altium\projects\first_project\Project Outputs for first_project\Pick Place\Pick Place for led(LED2 not fitted).txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       10-11-23
+Time:       22:18
+Revision:   Not in VersionControl
+Variant:    LED2 not fitted
+Units used: mil
+
+Designator Comment      Layer    Footprint Center-X(mil) Center-Y(mil) Rotation Description                                                                                                
+R1         360R         TopLayer R0805     177.165       511.811       270      "Fixed Resistor, Metal Glaze/thick Film, 0.125W, 360ohm, 150V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0805" 
+J1         "1x2 header" TopLayer HDR1X2    570.866       402.756       0        "Board Connector, 2 Contact(s), 1 Row(s), Male, Straight, Solder Terminal"                                 
+D1         GREEN        TopLayer LED0603G  177.165       236.220       90       "Single Color LED, Green, Water Clear, 1.15mm"                                                             

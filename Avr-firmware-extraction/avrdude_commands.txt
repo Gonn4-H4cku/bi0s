@@ -1,0 +1,7 @@
+1) install avrdude
+2) avrdude -p <partnumber> -c <programmer> -P <usb_port> -b <baudrate> -U <memtype>:r|w|v:<filename>[:format]
+
+to see the part numbers of available avr boards:
+ - avrdude -c <programmer> -p options
+3) to convert the hex file to binary :- 
+ - xxd -r -p input.hex output.bin
